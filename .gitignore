@@ -1,0 +1,18 @@
+.DS_Store
+.idea
+.tmp
+junit.xml
+node_modules
+npm-debug.log*
+temp
+yarn-debug.log*
+yarn-error.log*
+
+*.iml
+dist
+coverage
+.env
+
+# test files
+test/generated
+test/e2e/generated
