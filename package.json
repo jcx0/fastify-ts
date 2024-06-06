@@ -1,36 +1,12 @@
 {
-  "name": "@hey-api/openapi-ts",
-  "version": "0.42.1",
+  "name": "@jcx0/fastify-ts",
+  "version": "1.0.0",
   "type": "module",
-  "description": "Turn your OpenAPI specification into a beautiful TypeScript client",
-  "homepage": "https://heyapi.vercel.app/",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hey-api/openapi-ts.git"
-  },
-  "bugs": {
-    "url": "https://github.com/hey-api/openapi-ts/issues"
-  },
   "license": "MIT",
-  "keywords": [
-    "angular",
-    "axios",
-    "codegen",
-    "fetch",
-    "generator",
-    "javascript",
-    "json",
-    "node",
-    "openapi",
-    "swagger",
-    "typescript",
-    "xhr",
-    "yaml"
-  ],
   "main": "./dist/node/index.cjs",
   "types": "./dist/node/index.d.ts",
   "bin": {
-    "openapi-ts": "bin/index.cjs"
+    "fastify-ts": "bin/index.cjs"
   },
   "files": [
     "bin",
@@ -68,19 +44,11 @@
     "typescript": "^5.x"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "17.3.6",
-    "@angular/animations": "17.3.6",
-    "@angular/cli": "17.3.6",
-    "@angular/common": "17.3.6",
-    "@angular/compiler": "17.3.6",
-    "@angular/compiler-cli": "17.3.6",
-    "@angular/core": "17.3.6",
-    "@angular/forms": "17.3.6",
-    "@angular/platform-browser": "17.3.6",
-    "@angular/platform-browser-dynamic": "17.3.6",
-    "@angular/router": "17.3.6",
+    "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "6.1.0",
     "@rollup/plugin-node-resolve": "15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
     "@types/cross-spawn": "6.0.6",
     "@types/express": "4.17.21",
     "axios": "1.6.8",
@@ -91,9 +59,13 @@
     "node-fetch": "3.3.2",
     "prettier": "3.2.5",
     "puppeteer": "22.7.1",
+    "rimraf": "^5.0.7",
+    "rollup": "^4.18.0",
+    "rollup-plugin-dts": "^6.1.1",
     "rxjs": "7.8.1",
     "ts-node": "10.9.2",
     "tslib": "2.6.2",
-    "typescript": "5.4.5"
+    "typescript": "5.4.5",
+    "vitest": "^1.6.0"
   }
 }
