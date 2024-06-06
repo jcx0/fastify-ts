@@ -1,6 +1,9 @@
 {
-  "name": "@jcx0/fastify-ts",
+  "name": "@stylewoven/fastify-ts",
   "version": "1.0.0",
+  "publishConfig": {
+    "@stylewoven:registry": "https://npm.pkg.github.com"
+  },
   "type": "module",
   "license": "MIT",
   "main": "./dist/node/index.cjs",
