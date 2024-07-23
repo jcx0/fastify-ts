@@ -9,13 +9,13 @@
     }
   },
   "dependencies": {
+    "@jcx0/fastify-ts": "^1.1.0",
     "fastify": "^4.26.2",
     "fastify-openapi-glue": "^4.6.0",
     "fastify-plugin": "^4.5.1",
     "neverthrow": "^7.0.0"
   },
   "devDependencies": {
-    "@stylewoven/fastify-ts": "^1.0.1",
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "^20.12.7",
     "concurrently": "^8.2.2",

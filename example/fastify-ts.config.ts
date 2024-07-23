@@ -1,4 +1,4 @@
-import { defineConfig } from "@stylewoven/fastify-ts";
+import { defineConfig } from "@jcx0/fastify-ts";
 
 export default defineConfig({
   input: "./api.yaml",
