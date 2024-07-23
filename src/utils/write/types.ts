@@ -14,7 +14,7 @@ import { sortByName } from "../sort";
 import { transformTypeName } from "../transform";
 import { toType } from "./type";
 
-const ServiceHandlersTypeName = "ServiceHandlers";
+const ControllersTypeName = "Controllers";
 const OperationsTypeName = "OperationsT";
 
 type OnNode = (node: Node) => void;
@@ -281,7 +281,7 @@ export const processTypes = async ({
     });
     files.types?.add(
       compiler.typedef.alias(
-        ServiceHandlersTypeName,
+        ControllersTypeName,
         toType({
           ...emptyModel,
           export: "reference",

@@ -1,6 +1,6 @@
 {
   "name": "@stylewoven/fastify-ts",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publishConfig": {
     "@stylewoven:registry": "https://npm.pkg.github.com"
   },

@@ -1,0 +1,15 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "rootDir": "src",
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  }
+}
